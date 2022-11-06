@@ -23,7 +23,7 @@ public class Tree {
 			return true;
 		}
 		if (set.contains(sum - root.data)) {
-			System.out.println("Pair is there between" + root.data + "and " + "sum-root.data");
+			System.out.println("Pair is there between" + root.data + "and " + (sum-root.data));
 			return true;
 		} else {
 			set.add(root.data);
